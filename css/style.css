@@ -679,7 +679,7 @@ a:focus {
 background-color:#ffffff;
 
 }
-.contact_section input {
+.contact_section input, textarea {
   width: 100%;
   border: none;
   height: 50px;
@@ -687,29 +687,31 @@ background-color:#ffffff;
   padding-left: 25px;
   background-color: #ffffff;
   outline: none;
-  color: #ffffff;
+  color: black;
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
 
-.contact_section input::-webkit-input-placeholder {
+.contact_section input, textarea::-webkit-input-placeholder {
   color: #737272;
 }
 
-.contact_section input:-ms-input-placeholder {
+.contact_section input, textarea:-ms-input-placeholder {
   color: #737272;
 }
 
-.contact_section input::-ms-input-placeholder {
+.contact_section input, textarea::-ms-input-placeholder {
   color: #737272;
 }
 
-.contact_section input::placeholder {
+.contact_section input, textarea::placeholder {
   color: #737272;
 }
 
-.contact_section input.message-box {
+.contact_section textarea.message-box {
   height: 135px;
+  resize: none;
+  width: 100%;
 }
 
 .contact_section button {
