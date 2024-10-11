@@ -588,9 +588,8 @@ a:focus {
 }
 
 .client_section {
-
-  margin-top: 50px;
-  margin-bottom: 50px;
+  background-color: white;
+  padding-bottom: 50px;
 }
 
 .client_section .heading_container {
