@@ -372,6 +372,16 @@ a:focus {
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 
+
+.box {
+  transition: transform 0.2s ease-in-out;
+}
+
+.box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 .feature_section .feature_container .box .img-box {
   width: 90px;
   height: 90px;
@@ -454,6 +464,10 @@ a:focus {
 
 .professional_section {
   background-color: #d1e3ff;
+}
+
+.more-text {
+display: none;
 }
 
 .professional_section .row {

@@ -40,3 +40,12 @@ function myMap() {
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 }
+//show additional text in about us section 
+
+$(document).ready(function() {
+  $('.read-more').on('click', function() {
+    $(this).prev('.more-text').toggle();
+    $(this).text($(this).text() == 'Read More' ? 'Read Less' : 'Read More');
+  });
+});
+
